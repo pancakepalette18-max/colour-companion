@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Colour Companion: a painter’s pocket guide to colour</title>
+<meta name="description" content="Colour Companion is an iPhone and iPad app that shows painters how to shade, mix and pair colours.">
+<style>
+:root{--paper:#F7F1F3;--card:#FFFCFC;--ink:#33253C;--soft:#6B5A72;--plum:#5C3B63;--onplum:#FFF6F9;--line:rgba(51,37,60,.13)}
+@media (prefers-color-scheme:dark){:root{--paper:#1E1822;--card:#2A2230;--ink:#F3EAF2;--soft:#BFAFC6;--plum:#D7B4DE;--onplum:#231A28;--line:rgba(243,234,242,.13)}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font:17px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+.wrap{max-width:720px;margin:0 auto;padding:28px 20px 56px}
+nav{display:flex;flex-wrap:wrap;gap:6px 18px;align-items:center;margin-bottom:28px}
+nav .brand{font-weight:700;color:var(--plum);text-decoration:none;margin-right:auto}
+nav a{color:var(--soft);text-decoration:none;font-weight:600;font-size:15px}
+nav a:hover,nav a[aria-current]{color:var(--plum)}
+.bar{display:flex;height:14px;border-radius:999px;overflow:hidden;margin-bottom:26px}
+.bar span{flex:1}
+.eyebrow{font-size:12px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--soft);margin:0}
+h1{font-family:"New York","Iowan Old Style",Georgia,serif;color:var(--plum);font-size:clamp(32px,7vw,44px);line-height:1.15;margin:4px 0 10px;text-wrap:balance}
+h2{font-family:"New York","Iowan Old Style",Georgia,serif;color:var(--plum);font-size:23px;margin:34px 0 6px}
+h3{font-size:17px;margin:20px 0 2px}
+p,li{color:var(--ink)}
+.lead{font-size:19px;color:var(--soft)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:22px;padding:20px 22px;margin:16px 0;box-shadow:0 8px 18px rgba(74,46,82,.08)}
+.card h3:first-child{margin-top:0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px}
+.grid .card{margin:0}
+.swatches{display:flex;height:34px;border-radius:10px;overflow:hidden;margin-bottom:12px}
+.swatches span{flex:1}
+a{color:var(--plum)}
+.btn{display:inline-block;background:var(--plum);color:var(--onplum);text-decoration:none;font-weight:700;padding:11px 20px;border-radius:999px}
+.small{font-size:14px;color:var(--soft)}
+footer{margin-top:44px;padding-top:18px;border-top:1px solid var(--line);font-size:14px;color:var(--soft)}
+footer a{color:var(--soft)}
+</style>
+</head>
+<body>
+<div class="wrap">
+<nav><a class="brand" href="index.html">Colour Companion</a><a href="support.html">Support</a><a href="privacy.html">Privacy</a></nav>
+<div class="bar"><span style="background:#C0603F"></span><span style="background:#E8A32C"></span><span style="background:#9DB18E"></span><span style="background:#4A6C93"></span><span style="background:#4A2470"></span><span style="background:#F2C6CE"></span></div>
+
+<p class="eyebrow">By Pancake Palette</p>
+<h1>A painter’s pocket guide to colour</h1>
+<p class="lead">Colour Companion shows you how to shade a colour, which paints to mix to get it, and what goes with it. For iPhone and iPad.</p>
+<p><span class="btn">Coming soon to the App Store</span></p>
+
+<h2>What it does</h2>
+<div class="grid">
+<div class="card"><div class="swatches"><span style="background:#3C1A23"></span><span style="background:#682728"></span><span style="background:#C0603F"></span><span style="background:#CA9D80"></span><span style="background:#F1DDC9"></span></div><h3>Shade</h3><p>Pick a colour and see its shadow, its light, a background for it and the colours that go with it.</p></div>
+<div class="card"><div class="swatches"><span style="background:#2B3A9C"></span><span style="background:#F4B300"></span><span style="background:#FAF8F3"></span><span style="background:#6E9B5B"></span></div><h3>Mix</h3><p>Tick the tubes you own. The app tells you which to mix, in simple parts, for any colour.</p></div>
+<div class="card"><div class="swatches"><span style="background:#FFE9B8"></span><span style="background:#F5B06A"></span><span style="background:#E88A7A"></span><span style="background:#7A6FA8"></span><span style="background:#2E2748"></span></div><h3>Photo</h3><p>Choose a picture and get its main colours as a palette, each with a recipe.</p></div>
+<div class="card"><div class="swatches"><span style="background:#1C2026"></span><span style="background:#5A6470"></span><span style="background:#9AA5B1"></span><span style="background:#D5DCE3"></span><span style="background:#FAFCFF"></span></div><h3>Ideas</h3><p>Ready-made mood palettes, sets for metals, neons, skin and skies, and colour theory to play with.</p></div>
+<div class="card"><div class="swatches"><span style="background:#E88220"></span><span style="background:#C9A227"></span><span style="background:#6B6B2E"></span><span style="background:#9C4B22"></span><span style="background:#6E1B24"></span></div><h3>Studio</h3><p>Keep colours in groups, share them as a picture, and export to Procreate, Photoshop and more.</p></div>
+</div>
+
+<h2>Private by design</h2>
+<p>There is no account, no adverts and no tracking. Your colours and photos stay on your device. Read the <a href="privacy.html">privacy policy</a>.</p>
+
+<h2>Free and Pro</h2>
+<p>Shade and colour theory are free. Colour Companion Pro is an optional subscription that unlocks recipes, photo palettes, mood palettes, special sets, saving and export. Prices are shown in the app before you buy.</p>
+
+<h2>Need help?</h2>
+<p>See the <a href="support.html">support page</a> or email <a href="mailto:pancakepalette18@gmail.com">pancakepalette18@gmail.com</a>.</p>
+<p class="small">Procreate and Photoshop are trademarks of their respective owners. Colour Companion is not affiliated with or endorsed by them.</p>
+
+<footer>
+<p>Colour Companion is made by Pancake Palette Ltd, a company registered in England and Wales.<br>
+Company number: 17581289. Registered office: 4th Floor, 18 St. Cross Street, London, EC1N 8UN, United Kingdom.</p>
+<p><a href="index.html">Home</a> · <a href="support.html">Support</a> · <a href="privacy.html">Privacy</a> · <a href="mailto:pancakepalette18@gmail.com">pancakepalette18@gmail.com</a></p>
+</footer>
+</div>
+</body>
+</html>
